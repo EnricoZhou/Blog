@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: blog
-    env: python
-    pythonVersion: 3.12.6
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn main:app
